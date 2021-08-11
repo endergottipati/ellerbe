@@ -1,0 +1,623 @@
+:root {
+    --red: #a31621;
+    --orange: #f77f00;
+    --blue: #05204a;
+    --cyan: #b9d6f2;
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+
+
+
+body{
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f77f00;
+}
+.titleinfo{
+
+  margin-left:auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border-radius: 5%;
+  padding: .5rem;
+
+}
+.whyus{
+
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  font-family: 'Gowun Dodum', sans-serif;
+  flex-direction: column;
+}
+.whyp{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#f77f00;
+/*   border-radius:10px; */
+  color:white;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width:30rem;
+
+}
+.abtcards{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  font-family: 'Gowun Dodum', sans-serif;
+  margin-top:100px;
+  flex-direction: column;
+}
+.servbutton button{
+
+  width:25rem;
+  height:200px;
+  border:none;
+  background-color:#ffa400;
+  box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 30px;
+  color:white;
+  cursor:pointer;
+
+}
+.joinus{
+ /* margin-top:200px; */
+ margin-left:auto;
+ margin-right:auto;
+ width:90%;
+ height: 35rem;
+ box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
+ background-color:#ffa400;
+ border-radius:5px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ color:white;
+ font-family: 'Gowun Dodum', sans-serif;
+ padding:20px;
+
+
+}
+@media (min-width: 950px) {
+
+.navBar ul{
+display:flex;
+justify-content:space-around;
+align-items:center;
+background-color:#f77f00;
+height:60px;
+border-radius:10px;
+width: 75%;
+margin-left: auto;
+}
+.navBar li{
+  display:inline;
+  font-size:17px;
+  margin-right: 5rem;
+  margin-left: 5rem;
+
+}
+nav{
+  width:100%;
+  background-color: white;
+  margin-bottom:50px;
+  font-family: 'Gowun Dodum', sans-serif;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.titleinfo{
+  width:35%;
+  height:300px;
+  background-color:#ffffff;
+  margin-left:100px;
+  border-radius:15px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
+.whyus{
+
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+.whyp{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#f77f00;
+/*   border-radius:10px; */
+  color:white;
+  padding:10px;
+  margin-right: 6rem;
+  width:600px;
+
+}
+.abtcards{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+  font-family: 'Gowun Dodum', sans-serif;
+  margin-top:100px;
+
+}
+.servbutton button{
+
+  width:65rem;
+  height:200px;
+  border:none;
+  background-color:#ffa400;
+  box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 30px;
+  color:white;
+  cursor:pointer;
+
+}
+.joinus{
+ /* margin-top:200px; */
+ margin-left:auto;
+ margin-right:auto;
+ width:50%;
+ height: 35rem;
+ box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
+ background-color:#ffa400;
+ border-radius:5px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ color:white;
+ font-family: 'Gowun Dodum', sans-serif;
+ padding:20px;
+
+
+}
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+a:hover{
+  color:#05204a;
+}
+
+a.active{
+ color:#05204a;
+}
+
+
+
+
+.titlecard{
+
+  width:100%;
+  height:400px;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cyclizine-tablets-1597585991.jpg");
+ display:flex;
+ align-items:center;
+
+}
+
+.titleinfo h3{
+  font-size:25px;
+  font-family: 'WindSong', cursive;
+  color:#ffa400;
+}
+
+.titleinfo p{
+ font-size: 13px;
+ font-family: 'Barlow', sans-serif;
+ margin:3px;
+}
+
+.titleinfo ul{
+ font-size: 13px;
+ font-family: 'Barlow', sans-serif;
+ margin-top:25px;
+}
+
+.box p {
+    color: black;
+}
+
+.box {
+    border-radius: 5px;
+  box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
+    padding: 30px;
+    margin: 20px;
+  font-family: 'Gowun Dodum', sans-serif;
+
+
+
+
+}
+
+img {
+    float: right;
+  width:50px;
+}
+
+@media (max-width: 450px) {
+    .box {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+.cyan {
+    border-top: 3px solid var(--cyan);
+}
+.red {
+    border-top: 3px solid var(--red);
+}
+.blue {
+    border-top: 3px solid var(--blue);
+}
+.orange {
+    border-top: 3px solid var(--orange);
+}
+
+h2 {
+    color: var(--varyDarkBlue);
+    font-weight: var(--weight3);
+}
+
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 20%;
+
+    }
+    .header p {
+        width: 30%;
+    }
+
+}
+
+.tiles{
+  margin-top:80px;
+}
+
+
+
+.intro{
+  margin-bottom:20px;
+  Display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+  margin-top:5px;
+  color:white;
+
+}
+
+.intro h3{
+  margin-bottom:20px;
+  font-family: 'Barlow', sans-serif;
+}
+.submit{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.submit .btn{
+  width:8rem;
+  height:2rem;
+  border:none;
+  background-color:#f77f00;
+  box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 1rem;
+  color:white;
+  cursor:pointer;
+  outline:none;
+
+}
+
+.submit .btn:active{
+ transform: scale(0.98);
+
+}
+
+
+.joinus textarea{
+  border-radius:50px;
+  padding:10px;
+  margin-bottom: 1rem;
+  border:none;
+  outline:none;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  border:3px;
+  width:95%;
+
+}
+.joinus input{
+  border-radius:10px;
+  padding:5px;
+  margin-bottom: 1rem;
+  border:none;
+  outline:none;
+  width:95%;
+
+}
+
+.joinus textarea{
+  border-radius:10px;
+  outline:none;
+  resize: none;
+  border:none;
+  background-color:white;
+  box-shadow:none;
+
+
+}
+
+.fileup input{
+  border-radius:10px;
+  cursor:pointer;
+}
+
+
+
+.visionmission{
+  margin-top:200px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.vision{
+  background-color:#FFA400;
+  color:white;
+  width:75%;
+  padding:15px;
+  border-radius:5px;
+  margin-bottom: 1rem;
+}
+
+.mission{
+   background-color:#b9d6f2;
+  color:white;
+  width:75%;
+  padding:15px;
+  border-radius:5px;
+  margin-top:20px;
+}
+
+/* Contact Buttons */
+.connections{
+  margin-top:50px;
+}
+
+button{
+/*   display:flex;
+  justify-content:center;
+  outline:none;
+  align-items:center; */
+  width:50px;
+  height:50px;
+  border:none;
+  border-radius:10px;
+  background-color:white;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  margin:10px;
+  cursor:pointer;
+  font-size:18px;
+  color:#ffa400;
+}
+
+.facebook:hover{
+  background-color:#f77f00;
+  color:white;
+}
+.maps:hover{
+  background-color:#f77f00;
+  color:white;
+}
+.email:hover{
+  background-color:#f77f00;
+  color:white;
+}
+.phone:hover{
+  background-color:#f77f00;
+  color:white;
+}
+
+
+
+button:active{
+   transform: scale(0.98);
+}
+
+.aboutp{
+  font-family: 'Gowun Dodum', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:50px;
+}
+
+.aboutp h2{
+  font-family: 'WindSong', cursive;
+  color:#ffa400;
+  margin-bottom: 2.75rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.comparrison{
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Gowun Dodum', sans-serif;
+
+
+}
+
+.typical{
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-right:3rem;
+
+}
+
+
+.ellerbe{
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.typical p{
+  width:130px;
+  height:130px;
+  background-color:#05204A;
+  border-radius:50%;
+  margin-top:5px;
+  color:white;
+  font-size:12px;
+  text-decoration:none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:8px;
+}
+
+.ellerbe p{
+  width:130px;
+  height:130px;
+  background-color:#ffa400;
+  border-radius:50%;
+  margin-top:5px;
+  color:white;
+  font-size:12px;
+  text-decoration:none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:8px;
+}
+
+
+.abtcard{
+
+  height:300px;
+  width:400px;
+  box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
+  padding:7px;
+  border-top: 3px solid #ffa400;
+  margin-right: 2rem;
+}
+
+.abtcard i{
+  color:#ffa400;
+}
+.servicemain{
+  font-family: 'Gowun Dodum', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
+.servbutton{
+  font-family: 'Gowun Dodum', sans-serif;
+  margin-top:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+
+
+.servbutton button:active{
+   transform: scale(0.98);
+}
+
+
+
+.content{
+  display:none;
+}
