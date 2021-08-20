@@ -2,7 +2,7 @@
     --red: #a31621;
     --orange: #f77f00;
     --blue: #05204a;
-    --cyan: #b9d6f2;
+    --cyan: #2b4162;
     --weight1: 200;
     --weight2: 400;
     --weight3: 600;
@@ -228,8 +228,10 @@ a.active{
 .titlecard{
 
   width:100%;
-  height:400px;
-  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cyclizine-tablets-1597585991.jpg");
+  height:800px;
+  background-image: url(IMG_1693.png);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
  display:flex;
  align-items:center;
 
@@ -254,18 +256,15 @@ a.active{
 }
 
 .box p {
-    color: black;
+    color: #red;
 }
 
 .box {
     border-radius: 5px;
   box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
     padding: 30px;
-    margin: 20px;
+    margin: 35px;
   font-family: 'Gowun Dodum', sans-serif;
-
-
-
 
 }
 
@@ -323,12 +322,10 @@ h2 {
         top: 150px;
     }
     .box {
-        width: 20%;
+        width: 23%;
 
     }
-    .header p {
-        width: 30%;
-    }
+
 
 }
 
@@ -417,33 +414,63 @@ h2 {
 
 
 
+.coverimage{
+  margin-top:200px;
+  height:50px;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.coverimage img{
+        width: 100%;
+        display: block;
+
+    }
+
+
 .visionmission{
   margin-top:200px;
+  height:400px;
+  width:100%;
   display:flex;
-  flex-direction:column;
+/*   flex-direction:column; */
   justify-content:center;
   align-items:center;
   font-family: 'Gowun Dodum', sans-serif;
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size:16px;
+
+
+
 }
 
 .vision{
   background-color:#FFA400;
   color:white;
-  width:75%;
+  width:40%;
+  height:80%;
   padding:15px;
-  border-radius:5px;
-  margin-bottom: 1rem;
+  border-radius:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
 }
 
 .mission{
-   background-color:#b9d6f2;
+   background-color:#2b4162;
   color:white;
-  width:75%;
+  width:40%;
+  height:80%;
   padding:15px;
-  border-radius:5px;
-  margin-top:20px;
+  border-radius:10px;
+  margin-left:35px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 0px 11px 12px -5px rgba(63,63,63,0.22);
 }
 
 /* Contact Buttons */
@@ -620,4 +647,7 @@ button:active{
 
 .content{
   display:none;
+}
+.pharmacyImg{
+  width: 500px;
 }
